@@ -46,13 +46,22 @@ All results are structured under a unified SecurityState model, which can be exp
 
 ---
 
-## Screenshots
-
-| MotionLayout Transition           | Security Summary                           |
-| --------------------------------- | ------------------------------------------ |
-| ![motion](docs/images/motion.gif)  
-*Shows animated transition using MotionLayout to visualize security results.* | ![status](docs/images/security_report.png)  
-*Displays a full scan result rendered on the summary screen.* |
+<table>
+  <tr>
+    <th>MotionLayout Transition </th>
+    <th>Security Summary</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/images/motion.gif" alt="MotionLayout" width="320"/><br/>
+      <sub><i>Shows animated transition using MotionLayout to visualize security results.</i></sub>
+    </td>
+    <td align="center">
+      <img src="docs/images/security_report.png" alt="Güvenlik özeti ekranı" width="320"/><br/>
+      <sub><i>Displays a full scan result rendered on the summary screen.</i></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -274,13 +283,24 @@ Kurumsal güvenlik standartlarına uygun olarak tasarlanmıştır ve 25'ten fazl
 * Dagger 2 ile tam bağımlılık yönetimi
 * MVVM + Clean Architecture yapısı
 
-### Ekran Görüntüleri
+<h3>Ekran Görüntüleri</h3>
 
-| MotionLayout Geçişi               | Güvenlik Özeti                              |
-| ----------------------------------|---------------------------------------------|
-| ![motion](docs/images/motion.gif) | *Güvenlik panelinin animasyonlu geçişi*     |
-| ![status](docs/images/security_report.png) | *Tüm kontrolleri gösteren statik ekran görüntüsü* |
-
+<table>
+  <tr>
+    <th>MotionLayout Geçişi</th>
+    <th>Güvenlik Özeti</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/images/motion.gif" alt="MotionLayout geçiş animasyonu" width="320"/><br/>
+      <sub><i>Güvenlik panelinin animasyonlu geçişi</i></sub>
+    </td>
+    <td align="center">
+      <img src="docs/images/security_report.png" alt="Güvenlik özeti ekranı" width="320"/><br/>
+      <sub><i>Tüm kontrolleri gösteren statik ekran görüntüsü</i></sub>
+    </td>
+  </tr>
+</table>
 
 ### Nasıl Çalışır?
 
